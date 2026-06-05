@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type ="image/svg+xml" href="pictures/header.png"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Negi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1 class="brand-text">SN</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span id="name-toggle" class="name">Samarth Negi</span>
+                    </h1>
+                    <p class="hero-subtitle">S/W Engineer & Designer</p>
+                    <p class="hero-description">
+                        Crafting digital experiences with modern technology.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://github.com/samarth911" target="_blank" class="btn-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:samarthnegi91@gmail.com?subject=Hello%20Samarth%20from%20your%20portfolio" class="btn-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="samarth.pdf" class="btn-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-container">
+                        <div class="aura-glow"></div> <!-- glowing aura -->
+                        <img src="pictures/samarth.jpeg" alt="Samarth Negi" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a AIML UG student with expertise in modern AI technologies. 
+                            My journey in tech has been driven by curiosity and a desire to create 
+                            models that help in solving real world problems.
+                        </p>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <div class="skill-list" id="skillList">
+                                <span class="skill-item">Java</span>
+                                <span class="skill-item">Python</span>
+                                <span class="skill-item">DSA</span>
+                                <span class="skill-item">JS</span>
+                                <span class="skill-item">CSS</span>
+                                <span class="skill-item">HTML</span>
+                                <span class="skill-item">Github</span>
+                                <!-- <span class="skill-item">AWS</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project cards will be dynamically populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                
+                <div class="contact-content">
+                    <div class="contact-heading">
+                        <h3 class="contact-subtitle">Coffee? Chat? Collaboration?</h3>
+                        <h2 class="contact-title">Ready?</h2>
+                        <a href="samarth.pdf" download class="btn-resume">
+                            <i class="fas fa-download"></i>
+                            <span>Resume</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Message" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="mailto:samarthnegi91@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/samarth911" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samarth91/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://x.com/_samarth_91" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
